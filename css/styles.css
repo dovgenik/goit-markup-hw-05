@@ -562,8 +562,9 @@ img {
     border-radius: 4px;
     width: 264px;
     height: 40px;
+    padding-left: 16px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background-color: #d9d9d9;
+    background-color: transparent; 
     font-weight: 400;
     font-size: 12px;
     line-height: 2;
@@ -579,6 +580,7 @@ img {
     flex-direction: row;
     gap: 16px;
     border-radius: 4px;
+    border: none;
     padding: 8px 24px;
     min-width: 165px;
     height: 40px;
@@ -598,6 +600,7 @@ color: #fff;
 
 .footer-subscribe-icon {
     fill: #fff;
+    margin-left: 16px;
 }
 
 /* #endregion footer ************************************/
@@ -777,8 +780,8 @@ color: #fff;
 }
 
 .castom-checkbox {
-    cursor: pointer;
     display: inline-flex;
+    cursor: pointer;
     justify-content: center;
     align-items: center;
     fill: transparent;
