@@ -491,7 +491,7 @@
         </div>
         <form class="footer-form">
           <label class="footer-form-label">
-            <div class="footer-label-text">Subscribe</div>
+            <span class="footer-label-text">Subscribe</span>
             <input
               class="footer-email"
               type="email"
@@ -501,7 +501,7 @@
           </label>
 
           <button class="footer-button" type="submit">
-            <div class="subscribe-button-text">Subscribe</div>
+            <span class="subscribe-button-text">Subscribe</span>
             <svg class="footer-subscribe-icon" width="24" height="20">
               <use href="./images/icons.svg#icon-airplane"></use>
             </svg>
@@ -537,7 +537,7 @@
                 id="modal-name"
                 required
               />
-              <svg class="form-user-icon" width="18" height="18">
+              <svg class="form-user-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
             </div>
@@ -553,7 +553,7 @@
                 id="modal-tel"
                 required
               />
-              <svg class="form-user-icon" width="18" height="18">
+              <svg class="form-user-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
             </div>
@@ -569,7 +569,7 @@
                 id="modal-email"
                 required
               />
-              <svg class="form-user-icon" width="18" height="18">
+              <svg class="form-user-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
             </div>
@@ -590,21 +590,24 @@
               class="checkbox visually-hidden"
               type="checkbox"
               name="checkbox"
-              id="form-user-checkbox"
+              id="user-privacy"
+              value="true"
               required
             />
-            <label class="form-user-checkbox" for="form-user-checkbox">
+            <label class="form-user-checkbox" for="user-privacy">
               <span class="castom-checkbox">
                 <svg class="castom-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-on"></use>
-                </svg> </span
-              >I accept the terms and conditions of the&#xa0
+                </svg>
+              </span>
+              I accept the terms and conditions of the &#xa0;
               <a href="#" class="privacy-policy">Privacy Policy</a>
-              </label>
+            </label>
           </div>
 
-          <button class="form-btn-submit" type="submit"><span class="form-btn-submit-text" >Send</span></button>
-
+          <button class="form-btn-submit" type="submit">
+            <span class="form-btn-submit-text">Send</span>
+          </button>
         </form>
       </div>
     </div>
