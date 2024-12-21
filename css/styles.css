@@ -536,7 +536,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em; 
     color: #ffffff;
-    
+
 }
 
 .footer-form {
@@ -681,7 +681,7 @@ img {
 .key-close:hover,
 .key-close:focus {
     background-color: #404bbf;
-    fill: #ffffff
+    fill: #ffffff;
     border-style: none;
 }
 
