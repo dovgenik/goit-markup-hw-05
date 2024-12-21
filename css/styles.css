@@ -677,7 +677,7 @@ img {
 
 .key-close:hover .key-close-icon,
 .key-close:focus .key-close-icon {
-    fill: #fafafa;
+    fill: #ffffff;
 }
 
 .modal-text {
@@ -692,7 +692,7 @@ img {
 }
 
 .form-wrapper-cont {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .form-user-label {
