@@ -695,6 +695,9 @@ img {
 .form-wrapper-container {
     margin-bottom: 8px;
 }
+.form-wrapper-textarea {
+    margin-bottom: 16px;
+}
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
