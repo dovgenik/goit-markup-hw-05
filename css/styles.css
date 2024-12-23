@@ -690,11 +690,14 @@ img {
     color: #2e2f42;
     margin-bottom: 16px;
 }
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-.form-wrapper-cont {
+.form-wrapper-container {
     margin-bottom: 8px;
-     margin-bottom: 16px;
 }
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
 
 .form-user-label {
     display: block;
@@ -783,7 +786,7 @@ img {
     color: #8e8f99;
 }
 
-.castom-checkbox {
+.form-castom-checkbox {
     display: inline-flex;
     cursor: pointer;
     justify-content: center;
@@ -804,10 +807,6 @@ img {
     border: transparent;
     fill: #f4f4fd;
 }
-
-
-
-
 
 .privacy-policy {
     line-height: 1.33333;
